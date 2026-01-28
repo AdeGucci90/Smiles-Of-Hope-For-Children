@@ -57,11 +57,12 @@ const JoinPage: React.FC<JoinPageProps> = ({ onNavigate }) => {
             At <i>Smiles of Hope for Children Foundation (SHCF)</i>, we believe meaningful change happens when passionate people come together to serve children and communities. We welcome individuals who share our commitment to prevention, equity, and community-centered care to join us in bringing hope one smile at a time.
             <br>
             Whether you are a healthcare professional, student, community advocate, or supporter, there are many ways to contribute your skills, time, and expertise to our mission.
+            </br>
             </p>
             
             <div className="space-y-6 font-sans">
               {[
-                { title: "Who Can Join", desc: "Oral health professionals (dentists, dental therapists, hygienists)", "Community health workers and educators" },
+                { title: "Who Can Join", desc: "Oral health professionals (dentists, dental therapists, hygienists)" },
                 { title: "Ways to Get Involved", desc: "Train to deliver oral health workshops to schools." },
                 { title: "Why Join Us", desc: "Sponsor a community and see the impact directly." }
               ].map((role, i) => (
