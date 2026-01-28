@@ -16,7 +16,7 @@ const Founder: React.FC = () => {
                 
                 <div className="w-64 h-64 md:w-96 md:h-96 rounded-[4rem] border-8 border-[#4FA3D1] overflow-hidden shadow-3xl mx-auto transform rotate-3 hover:rotate-0 transition-all duration-500">
                     <img 
-                      src="/images/Founder2.jpg" 
+                      src="/images/Founder.webp"
                       alt="Founder Professor Olubukola Olatosi" 
                       className="w-full h-full object-cover scale-110"
                     />

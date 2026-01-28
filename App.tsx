@@ -11,7 +11,6 @@ import CTA from './components/CTA';
 import Founder from './components/Founder';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
-import ChatBot from './components/ChatBot';
 import Preloader from './components/Preloader';
 import { BLOG_POSTS } from './constants';
 import { BlogPost } from './types';
@@ -221,7 +220,6 @@ const App: React.FC = () => {
         {currentView !== 'admin' && (
           <>
             <BackToTop />
-            <ChatBot />
           </>
         )}
       </div>
