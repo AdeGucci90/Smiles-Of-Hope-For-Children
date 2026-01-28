@@ -42,7 +42,7 @@ const JoinPage: React.FC<JoinPageProps> = ({ onNavigate }) => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/20"></div>
         
         <div className="relative z-10 container mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-black font-playful mb-6 drop-shadow-xl">Join the Movement</h1>
+          <h1 className="text-5xl md:text-7xl font-black font-playful mb-6 drop-shadow-xl">Join Our Team</h1>
           <p className="text-xl md:text-2xl max-w-2xl mx-auto opacity-90 font-medium font-sans">
             Lend your skills, your time, and your heart to help us save more smiles.
           </p>
@@ -54,7 +54,9 @@ const JoinPage: React.FC<JoinPageProps> = ({ onNavigate }) => {
           <div className="lg:w-1/2 space-y-8">
             <h1 className="text-6xl font-black font-playful text-[#4FA3D1]">Become a <br /><span className="text-[#F6C453]">Smile Ambassador</span></h1>
             <p className="text-xl text-slate-600 leading-relaxed font-sans">
-              Whether you're a dental professional, a student, or simply someone who cares about children's health, your time and skills can change lives.
+            At <i>Smiles of Hope for Children Foundation (SHCF)</i>, we believe meaningful change happens when passionate people come together to serve children and communities. We welcome individuals who share our commitment to prevention, equity, and community-centered care to join us in bringing hope one smile at a time.
+            <br>
+            Whether you are a healthcare professional, student, community advocate, or supporter, there are many ways to contribute your skills, time, and expertise to our mission.
             </p>
             
             <div className="space-y-6 font-sans">
