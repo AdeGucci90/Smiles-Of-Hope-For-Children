@@ -61,9 +61,9 @@ const JoinPage: React.FC<JoinPageProps> = ({ onNavigate }) => {
             
             <div className="space-y-6 font-sans">
               {[
-                { title: "Volunteer at Outreach", desc: "Help with screenings and logistics in rural communities." },
-                { title: "Educational Advocate", desc: "Train to deliver oral health workshops to schools." },
-                { title: "Corporate Partner", desc: "Sponsor a community and see the impact directly." }
+                { title: "Who Can Join", desc: "Oral health professionals (dentists, dental therapists, hygienists)", "Community health workers and educators" },
+                { title: "Ways to Get Involved", desc: "Train to deliver oral health workshops to schools." },
+                { title: "Why Join Us", desc: "Sponsor a community and see the impact directly." }
               ].map((role, i) => (
                 <div key={i} className="flex gap-6 items-start p-6 bg-white rounded-3xl shadow-sm border border-slate-100">
                   <div className="w-12 h-12 rounded-2xl bg-[#EBF6FC] flex items-center justify-center text-2xl flex-shrink-0">
