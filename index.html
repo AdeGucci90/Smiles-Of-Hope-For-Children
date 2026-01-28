@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smiles of Hope for Children Foundation</title>
+    <link rel="icon" type="image/png" href="/images/icon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                blue: '#4FA3D1',
+                yellow: '#F6C453',
+                darkBlue: '#3A7A9D',
+                lightBlue: '#EBF6FC'
+              }
+            },
+            fontFamily: {
+              sans: ['Alice', 'serif'],
+              playful: ['"Bubblegum Sans"', 'cursive'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+        body {
+            font-family: 'Alice', serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, h4, h5, h6, .font-playful {
+            font-family: 'Bubblegum Sans', cursive;
+            letter-spacing: 0.02em;
+        }
+        ::selection {
+            background-color: #4FA3D1;
+            color: white;
+        }
+        .text-primary { color: #4FA3D1; }
+        .bg-primary { background-color: #4FA3D1; }
+        .text-secondary { color: #F6C453; }
+        .bg-secondary { background-color: #F6C453; }
+        
+        .image-tint-blue {
+            position: relative;
+        }
+        .image-tint-blue::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(45deg, rgba(79, 163, 209, 0.4), rgba(79, 163, 209, 0.1));
+            pointer-events: none;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #f1f1f1;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #4FA3D1;
+          border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: #3A7A9D;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+<script type="module" src="/index.tsx"></script>
+</head>
+<body class="bg-slate-50">
+    <div id="root"></div>
+</body>
+</html>

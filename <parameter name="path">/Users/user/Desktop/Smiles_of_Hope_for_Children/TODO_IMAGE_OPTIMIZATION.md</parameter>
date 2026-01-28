@@ -1,0 +1,27 @@
+<parameter name="content"># Image Optimization TODO
+
+## Goal
+Optimize all images for mobile-friendly performance and faster loading.
+
+## Images to Optimize
+1. ✅ Hero.tsx - 5 hero images (Hero1-5.jpg)
+2. Header.tsx - logo.png
+3. Preloader.tsx - logo.png
+4. About.tsx - about us.webp
+5. Founder.tsx - Founder.webp
+
+## Optimization Strategy
+- Add lazy loading to non-hero images
+- Add async decoding
+- Add fetch priority for hero images (LCP optimization)
+- Add proper sizes attributes
+- Add aspect-ratio CSS to prevent layout shifts
+- Add width/height attributes for CLS prevention
+
+## Progress
+- [ ] Update Hero.tsx - Add fetchpriority="high" for hero images (above fold)
+- [ ] Update Header.tsx - Add width/height and optimized attributes for logo
+- [ ] Update Preloader.tsx - Add width/height and optimized attributes for logo
+- [ ] Update About.tsx - Add lazy loading and async decoding for about us image
+- [ ] Update Founder.tsx - Add lazy loading and async decoding for founder image
+</parameter>

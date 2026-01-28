@@ -1,0 +1,8 @@
+{
+  "name": "Smiles of Hope for Children Foundation",
+  "description": "A dedicated platform for improving children's oral health through prevention, education, and community engagement in underserved areas.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
