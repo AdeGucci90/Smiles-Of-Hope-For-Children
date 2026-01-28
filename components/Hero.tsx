@@ -16,31 +16,31 @@ interface Slide {
 const SLIDES: Slide[] = [
   {
     image: "/images/Hero1.jpg",
-    tag: "#",
+    tag: "",
     title: <>Bringing <span className="text-brand-yellow">Hope</span>, One Smile at a Time</>,
     description: "Smiles of Hope for Children Foundation is dedicated to improving oral health and wellbeing in underserved communities."
   },
   {
     image: "/images/Hero2.jpg",
-    tag: "#",
+    tag: "",
     title: <>Early Care for a <span className="text-brand-yellow">Healthy</span> Future</>,
     description: "We promote age-appropriate hygiene and fluoride use to prevent diseases before they start."
   },
   {
     image: "/images/Hero3.jpg",
-    tag: "#",
+    tag: "",
     title: <>Empowering <span className="text-brand-yellow">Caregivers</span> & Schools</>,
     description: "Delivering culturally appropriate education to parents and community leaders across Nigeria."
   },
   {
     image: "/images/Hero 4.jpg",
-    tag: "#",
+    tag: "",
     title: <>Restoring Smiles, Changing <span className="text-brand-yellow">Lives</span></>,
     description: "Our mobile clinics provide free dental checkups, treatments, and referrals to children in need."
   },
   {
     image: "/images/Hero 5.jpg",
-    tag: "#",
+    tag: "",
     title: <>Every Smile Tells a <span className="text-brand-yellow">Success</span> Story</>,
     description: "Join thousands of caregivers and children whose lives have been transformed through our programs."
   }
